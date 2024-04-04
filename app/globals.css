@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.options :hover{
+    background-color: #4A148C;
+} 
+
+.options>*:active {
+    background-color: #4A148C;
+  }
+
+.options>*{
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
